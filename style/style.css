@@ -175,6 +175,7 @@ align-items: center;
 }
 .link{
     display:flex;
+    justify-content: space-around;
 }
 .heading-sup{
     padding-top: 40px;
