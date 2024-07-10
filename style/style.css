@@ -171,14 +171,16 @@ align-items: center;
 }
 .contact{
     display: flex;
+    margin-left: 70px;
     justify-content: space-between;
 }
-.link{
-    display:flex;
-    justify-content: space-around;
+.contact-link{
+display: flex; 
+margin-right: 70px;   
 }
 .heading-sup{
-    padding-top: 40px;
+    padding-top: 80px;
+    margin: auto;
     color:rgb(255, 255, 255)
 }
 .common{
