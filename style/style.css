@@ -1,0 +1,151 @@
+.azeret-mono-normal{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.name{
+    color: rgb(13, 19, 33);
+    font-weight:bold;
+    text-align: left;
+}
+.head{
+    display: flex;
+    justify-content:space-around;
+}
+download-resume{
+border-radius: 8px;
+padding: 24px;
+margin-right: 166px;
+padding: 38px;
+}
+nav>ul>li{
+    list-style-type: none;
+}
+.banner {
+    background:url(assets/Hero-bg.png);
+width: 1205px;
+height: 450px;
+justify-items: center;
+align-items: center;
+}
+.contact-btn-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support {
+    background:url(assets/handshake.jpg);
+}
+.content-frame{
+    border: 16px;
+    padding: 48px;
+}
+
+.title{
+align-items: center;
+text-align: center;
+}
+.paragraph{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+color: rgb(13, 19, 33);
+align-items: center;
+}
+.banner-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 240px;
+    height: 240px;
+}
+.contact-btn{
+    align-items: center;
+    color: black;
+}
+.content-title{
+  text-align: center; 
+  margin-right: 48px;
+  margin-left: 48px;
+  margin-top:100px;
+}
+.content-reason{
+  width: 1076px;
+  height: 550px;
+}
+.content
+{
+    display: flex;
+    justify-content: space-between;
+}
+.learn-btn{
+    display: flex;
+align-items: center;
+}
+.sub-content{
+    margin-right: 200px;
+}
+.youtube-vedio{
+    width: 1076px;
+    height: 350px;
+    border: 16px;
+    margin: 32px;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+.individual-card1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    width: 400px;
+    height: 370px;
+    margin-top: 48px;
+    margin-right: 10px;
+    margin-bottom: 111px;
+    margin-left: 70px;
+}
+.individual-card2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    width: 400px;
+    height: 370px;
+    margin-top:48px;
+    margin-right: 10px;
+    margin-bottom: 111px;
+}
+.individual-card3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    width: 400px;
+    height: 370px;
+    margin-top: 48px;
+    margin-right: 70px;
+    margin-bottom: 111px;
+}
+.card-content{
+    width: 150px;
+    height: 100px;
+    padding: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.submit{
+    text-align: center;
+    align-items: center;
+}
+.submit-btn{
+    width: 80px;
+    height: 23px;
+}
+.text{
+    padding: 10px;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
