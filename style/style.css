@@ -3,6 +3,9 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.myweb{
+    margin-top: auto;
+}
 
 .name{
     color: rgb(13, 19, 33);
@@ -12,8 +15,9 @@
 .head{
     display: flex;
     justify-content:space-around;
+    align-items: center;
 }
-download-resume{
+.download-resume{
 border-radius: 8px;
 padding: 24px;
 margin-right: 166px;
@@ -22,24 +26,27 @@ padding: 38px;
 nav>ul>li{
     list-style-type: none;
 }
-.banner {
-    background:url(assets/Hero-bg.png);
-width: 1205px;
-height: 450px;
-justify-items: center;
-align-items: center;
+.btn-holder{
+    text-align: center;
 }
-.contact-btn-style{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.support {
-    background:url(assets/handshake.jpg);
+.btn{
+padding: 8px 12px 8px 12px;
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+background: rgb(13, 19, 33);
+border: none;
+border-radius: 5px;
 }
 .content-frame{
     border: 16px;
     padding: 48px;
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .title{
@@ -76,10 +83,17 @@ align-items: center;
   width: 1076px;
   height: 550px;
 }
+.content-inspira{
+    margin-right: 80px;
+    margin-left: 80px;
+    padding:40px;
+    text-align: justify;
+}
 .content
 {
     display: flex;
     justify-content: space-between;
+    padding: 45px 45px 45px 45px;
 }
 .learn-btn{
     display: flex;
@@ -89,8 +103,8 @@ align-items: center;
     margin-right: 200px;
 }
 .youtube-vedio{
-    width: 1076px;
-    height: 350px;
+    width: 1000px;
+    height:350px;
     border: 16px;
     margin: 32px;
 }
@@ -134,18 +148,41 @@ align-items: center;
     justify-content: flex-start;
 }
 .submit{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
     text-align: center;
     align-items: center;
+    margin: auto;
+    border: none
+    ;
+    
 }
-.submit-btn{
-    width: 80px;
-    height: 23px;
+.subbtn{
+    width:70px;
+    height:35px;
+    margin-left: 10px;
+    border-radius: 5px;
+    
 }
 .text{
     padding: 10px;
+    color: rgba(13, 19, 33, 0.4);
 }
 .contact{
     display: flex;
     justify-content: space-between;
 }
+.link{
+    display:flex;
+}
+.heading-sup{
+    padding-top: 40px;
+    color:rgb(255, 255, 255)
+}
+.common{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
 
